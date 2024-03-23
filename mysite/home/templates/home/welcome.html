@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="row">
+        <dib class="col">
+            <div class="home-holder text-center">
+                <h1 class="fs-3">Hello world</h1>
+                <p>Welcome to the world</p>
+                <a href="{% url 'notes.list' %}" class="btn btn-success btn-sm">Go to The Journal</a>
+            </div>
+        </dib>
+    </div>
+{% endblock %}
+
